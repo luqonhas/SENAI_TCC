@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;1,500&display=swap');
+
+body{
+    background-color: #ffffff;
+}
+
+.gradient-login{
+    display: flex;
+}
+
+.gradiente{
+    background: linear-gradient(45deg, #FF500F, #FF8700);
+    height: 100vh;
+    width: 637px;
+}
+
+.gradiente img{
+    display: block;
+    margin: auto;
+    padding-top: 50%;
+}
+
+.login{
+    margin: auto;
+}
+
+.login h3{
+    color: #353535;
+    font-weight: bold;
+    font-size: 1.875em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.monitoramento {
+    color: #5B5671;
+    font-weight:lighter;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 13px;
+}
+
+.asteristico{
+    color: #FF510F;
+}
+
+.email, .senha{
+    font-weight:lighter;
+    color: #353535;
+    font-weight:lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+.email input, .senha input{
+    width: 350px;
+    height: 35px;
+    border-color: #E4E3EA;
+    border-top-style: solid;
+    border-left-style: solid;
+}
+
+.caracter {
+    font-family: 'Montserrat', sans-serif;
+    color: #A6A4AE;
+    font-size: 0.75em;
+    padding-top: 10px;
+}
+
+.remember{
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.remember p {
+    color: #353535;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 0.875em;
+}
+
+input[type="checkbox"] {
+    margin-top: 1px;
+}
+
+.senha-remember{
+    padding-left: 68px;
+    color: #FF510F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    font-size: 0.875em;
+}
+
+.button-submit{
+    width: 350px;
+    height: 46px;
+    background: linear-gradient(45deg, #FF500F, #FF8700);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    font-weight:inherit;
+    color: #A6A4AE;
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 30px;
+}

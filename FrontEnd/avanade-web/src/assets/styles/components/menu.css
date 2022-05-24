@@ -1,0 +1,339 @@
+/* Geral */
+
+.menu-background{
+    display: flex;
+    width: 100%;
+}
+
+
+
+/* Sidebar */
+
+.sidebar-background{
+    width: 18vw;
+    height: 100vh;
+    background-color: #fff;
+    border-right: 1px solid #E4E3EA;
+    position: fixed;
+}
+
+.sidebar-logo{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-logo-content{
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    /* background-color: #E4E3EA; */
+    cursor: pointer;
+}
+
+.sidebar-logo-content p{
+    background-image: linear-gradient(45deg, #FF500F, #FF8700);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    user-select: none;
+}
+
+.sidebar-logo-content span{
+    font-weight: 900;
+    color: #353535;
+    user-select: none;
+}
+
+.sidebar-btn{
+    width: 100%;
+    height: 50px;
+    color: #A6A4AE;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-btn:hover{
+    background-color: #FAFAFA;
+}
+
+.sidebar-btn:hover::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 50px;
+    background: #A6A4AE;
+    user-select: none;
+}
+
+.sidebar-btn.active{
+    background-color: #FAFAFA;
+    font-weight: bold;
+}
+
+.sidebar-btn.active p{
+    background-image: linear-gradient(45deg, #FF500F, #FF8700);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebar-btn.active::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 50px;
+    background: linear-gradient(90deg, #FF500F 0%, #FF8700 100%), #FFFFFF;
+    user-select: none;
+}
+
+.sidebar-btn-content{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 30px 0 30px;
+    user-select: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebar-btn-icon{
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.sidebar-btn-content-default{
+    display: flex;
+}
+
+.sidebar-btn-content-alert{
+    width: 30px;
+    height: 16px;
+    background-color: #E4E3EA;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A6A4AE;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.sidebar-btn-content-alert.active{
+    background: linear-gradient(90deg, #FF500F 0%, #FF8700 100%), #FFFFFF;
+    color: #FFF;
+}
+
+.sidebar-vazio{
+    width: 100%;
+    height: 40px;
+    padding: 20px 30px;
+}
+
+.sidebar-linha{
+    width: 100%;
+    height: 1.5px;
+    background-color: #E4E3EA;
+}
+
+
+
+/* Header */
+
+.header-background{
+    width: 100%;
+    height: 120px;
+    background-color: #FFF;
+    border-bottom: 1px solid #E4E3EA;
+    position: fixed;
+    margin-left: 18vw;
+    z-index: 3;
+    /* background-color: red; */
+}
+
+.header-sobre-user{
+    display: flex;
+    height: 90px;
+}
+
+.header-sobre{
+    display: flex;
+    flex: 1.6;
+    padding-left: 30px;
+    padding-top: 35px;
+    font-size: 24px;
+}
+
+.header-user{
+    display: flex;
+    width: 50px;
+    flex: 1;
+    /* background-color: red; */
+    margin-right: 60px;
+}
+
+.header-btns{
+    height: 30px;
+    padding-left: 30px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-btn-content{
+    color: #A6A4AE;
+    user-select: none;
+    margin-right: 20px;
+}
+
+.header-btn-content{
+    border-bottom: 2px solid #A6A4AE;
+}
+
+.header-user{
+    padding-top: 35px;
+}
+
+.header-user-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    justify-content: start;
+    user-select: none;
+    /* background-color: red; */
+}
+
+.header-user-content-text{
+    margin-left: 20px;
+}
+
+.header-user-content-text p:nth-child(1){
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.header-user-content-text p:nth-child(2){
+    font-size: 14px;
+    background-image: linear-gradient(45deg, #FF500F, #FF8700);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.header-user-content-photo{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 25px;
+    border-radius: 25px;
+    padding: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.header-user-content-photo.active{
+    border: 2px solid #CCC;
+}
+
+.header-user-content-photo.active img{
+    width: 42px;
+    height: 42px;
+}
+
+.header-user-content-photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.content-between-header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F7F8FC;
+    overflow: auto;
+}
+
+.content-background{
+    margin-top: 25vh;
+    margin-left: 21vw;
+    margin-bottom: 6vh;
+    /* background-color: red; */
+    width: 75vw;
+    /* height: 600px; */
+}
+
+.header-btn-content.active{
+    background-image: linear-gradient(45deg, #FF500F, #FF8700);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, #FF500F, #FF8700);
+    border-image-slice: 1;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.header-btn-content:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, #FF500F, #FF8700);
+    border-image-slice: 1;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.header-btn-content-alerts{
+    background-image: linear-gradient(45deg, #FF500F, #FF8700);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, #FF500F, #FF8700);
+    border-image-slice: 1;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.header-user-theme{
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FAFAFA;
+    transition: .3s;
+}
+
+/* dark-mode */
+
+.background-black{
+    background-color: #1F1D2B;
+}
+
+.color-white{
+    color: #fff !important;
+}

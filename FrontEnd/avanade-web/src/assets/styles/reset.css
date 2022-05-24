@@ -1,0 +1,123 @@
+/* RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* input[type="checkbox"]{
+    all: unset;
+} */
+
+select{
+    border: none;
+    outline: none;
+}
+
+body, h1, h2, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #353535;
+    background-color: #FAFAFA;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    display: block;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html::-webkit-scrollbar{
+    width: 15px;
+    background: #FAFAFA;
+}
+
+html::-webkit-scrollbar-track{
+    width: 15px;
+    margin: 0px 0 5px 0;
+    background-color: #fafafa;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #A6A4AE;
+    border-radius: 25px;
+    border: 3px solid #fafafa;
+}
+
+html::-webkit-scrollbar-thumb:hover{
+    background-color: #CCC  ;
+    border-radius: 25px;
+    border: 3px solid #fafafa;
+}
+
+html{
+    overflow-y: overlay;
+}
+
+html.loading{
+    overflow-y: hidden;
+}
+
+input{
+    border: 1.5px solid #E4E3EA;
+    padding: 15px;
+    outline: none;
+    border-radius: 3px;
+    color: #353535;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input::placeholder{
+    color: #A6A4AE;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+}
+
+input[type=date]::-webkit-datetime-edit-text {
+    /* -webkit-appearance: none;
+    display: none;
+    border: none; */
+    color: #A6A4AE;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    /* -webkit-appearance: none;
+    display: none;
+    border: none; */
+    color: #A6A4AE;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    /* -webkit-appearance: none;
+    display: none;
+    border: none; */
+    color: #A6A4AE;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    /* -webkit-appearance: none;
+    display: none;
+    border: none; */
+    color: #A6A4AE;
+}

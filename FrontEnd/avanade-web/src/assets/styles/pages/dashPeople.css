@@ -1,0 +1,199 @@
+/* Cards superiores */
+.dash-people-small-squares-background{
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    /* background-color: blue; */
+}
+
+.dash-people-small-squares{
+    width: 245px;
+    height: 135px;
+    background-color: #FFF;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    transition: .3s ease;
+}
+
+.dash-people-small-squares.big:nth-child(1){
+    width: 255px;
+    transition: .3s;
+}
+
+.dash-people-small-squares h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #A6A4AE;
+}
+
+.dash-people-small-squares-info-background{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-people-small-squares-info{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dash-people-small-squares-info p{
+    text-transform: uppercase;
+}
+
+.dash-people-small-squares-info span{
+    text-transform: none;
+}
+
+.dash-people-small-squares-info.safe p{
+    color: #68CAA0;
+}
+
+.dash-people-small-squares-info.attention p{
+    color: #FE9800;
+}
+
+.dash-people-small-squares-info.danger p{
+    color: #EA6367;
+}
+
+.dash-people-small-squares-message{
+    margin-top: 10px;
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.dash-people-small-squares-message.safe{
+    background-color: #68CAA0;
+    color: #FFF;
+}
+
+.dash-people-small-squares-message.attention{
+    background-color: #FE9800;
+    color: #FFF;
+}
+
+.dash-people-small-squares-message.danger{
+    background-color: #EA6367;
+    color: #FFF;
+}
+
+.dash-people-small-squares-bottom{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.dash-people-small-squares-percent{
+    width: 25%;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.dash-people-small-squares-bottom span{
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    color: #A6A4AE;
+}
+
+.dash-people-small-squares-percent.safe{
+    background-color: #68CAA0;
+    color: #FFF;
+}
+
+.dash-people-small-squares-percent.attention{
+    background-color: #FE9800;
+    color: #FFF;
+}
+
+.dash-people-small-squares-percent.danger{
+    background-color: #EA6367;
+    color: #FFF;
+}
+
+
+
+/* Gráfico */
+.dash-people-grafics-background{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.dash-people-grafics-bars-background{
+    width: 700px;
+    height: 100%;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.dash-people-grafics-small-background{
+    width: 300px;
+    height: 100%;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.dash-people-grafics-title{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.dash-people-grafics-title h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #353535;
+}
+
+.dash-people-grafics-bars-graph{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: red; */
+}
+
+.dash-people-grafics-bars-graph img{
+    width: 665px;
+}
+
+.dash-people-grafics-donut-graph{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.dash-people-grafics-donut-graph img{
+    width: 250px;
+}

@@ -1,0 +1,215 @@
+/* Cards superiores */
+.dash-temperature-small-squares-background{
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    /* background-color: blue; */
+}
+
+.dash-temperature-small-squares{
+    width: 245px;
+    height: 135px;
+    background-color: #FFF;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.dash-temperature-small-squares h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #A6A4AE;
+}
+
+.dash-temperature-small-squares-info-background{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-temperature-small-squares-info{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.dash-temperature-small-squares-info.default p{
+    background-image: linear-gradient(45deg, #FF500F, #FF8700);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dash-temperature-small-squares-info.safe p{
+    color: #68CAA0;
+}
+
+.dash-temperature-small-squares-info.attention p{
+    color: #FE9800;
+}
+
+.dash-temperature-small-squares-info.danger p{
+    color: #EA6367;
+}
+
+.dash-temperature-small-squares-line{
+    width: 4px;
+    height: 25px;
+    background-color: #A6A4AE;
+    margin: 0px 10px;
+}
+
+.dash-temperature-small-squares-info span{
+    cursor: pointer;
+}
+
+.dash-temperature-small-squares-celsius-fahrenheit{
+    color: #A6A4AE;
+    user-select: auto;
+}
+
+.dash-temperature-small-squares-celsius-fahrenheit.active{
+    background-image: linear-gradient(45deg, #FF500F, #FF8700);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
+
+.dash-temperature-small-squares-message{
+    margin-top: 10px;
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.dash-temperature-small-squares-message.safe{
+    background-color: #68CAA0;
+    color: #FFF;
+}
+
+.dash-temperature-small-squares-message.attention{
+    background-color: #FE9800;
+    color: #FFF;
+}
+
+.dash-temperature-small-squares-message.danger{
+    background-color: #EA6367;
+    color: #FFF;
+}
+
+.dash-temperature-small-squares-bottom{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.dash-temperature-small-squares-percent{
+    width: 25%;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.dash-temperature-small-squares-bottom span{
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    color: #A6A4AE;
+}
+
+.dash-temperature-small-squares-percent.safe{
+    background-color: #68CAA0;
+    color: #FFF;
+}
+
+.dash-temperature-small-squares-percent.attention{
+    background-color: #FE9800;
+    color: #FFF;
+}
+
+.dash-temperature-small-squares-percent.danger{
+    background-color: #EA6367;
+    color: #FFF;
+}
+
+
+
+/* Gráfico */
+.dash-temperature-grafics-background{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.dash-temperature-grafics-bars-background{
+    width: 700px;
+    height: 100%;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.dash-temperature-grafics-small-background{
+    width: 300px;
+    height: 100%;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.dash-temperature-grafics-title{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.dash-temperature-grafics-title h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #353535;
+}
+
+.dash-temperature-grafics-bars-graph{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: red; */
+}
+
+.dash-temperature-grafics-bars-graph img{
+    width: 665px;
+}
+
+.dash-temperature-grafics-donut-graph{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.dash-temperature-grafics-donut-graph img{
+    width: 250px;
+}

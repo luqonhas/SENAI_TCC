@@ -1,0 +1,6 @@
+Packages to install and run the project
+Pacotes para instalar e rodar o projeto
+
+numpy==1.19.5
+opencv-python==4.5.3
+requests==2.26.0
